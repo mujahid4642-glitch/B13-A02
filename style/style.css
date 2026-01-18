@@ -1,0 +1,136 @@
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:<weight>;
+  font-style:normal;
+}
+
+/* nav releted contene */
+
+.nav-continer{
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: #1A0B2E;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.pl{
+  color: #FFFFFF;
+  max-width: 219px;
+  margin: 30px 0px 30px 200px;
+  
+}
+.linear{
+  background: linear-gradient(#F7E93F,#FB09B4,#F7E93F);
+;
+}
+
+.nav-box{
+
+}
+.nav-item{
+  max-width: 218px;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFFFFF;
+  gap: 32px;
+  list-style: none;
+  margin: 36px 0px 36px 0px;
+  /* align-items: center; */
+ 
+}
+ 
+ 
+
+.btn-1{
+  max-width: 135;
+  margin: 24px 200px 24px 0px;
+ 
+}
+.btn{font-size: 16px;
+  font-weight: 600px;
+  color: #FFFFFF;
+   padding: 16px 12px 16px 12px;
+   background: linear-gradient(#F7E93F,#FB09B4,#9100F8);
+    border-radius: 10000px;
+    cursor: pointer;
+
+}
+
+/* banner teletad */
+
+
+.banner-continer{
+
+  max-width: 1600px;
+  margin-left: 142px;
+ 
+  background: url(../assets/hero-bg.png);
+  background-repeat: no-repeat;
+  border: 2px solid wheat;
+  text-align: center;
+  padding: 100px 20px;
+}
+.banner{
+  max-width: 550px;
+  margin: 0 auto;
+
+
+
+
+}
+
+.imag{
+  max-width: 350px;
+  border-radius: 50px;
+
+
+}
+.name{
+  max-width: 550px;
+  font-size: 60px;
+  font-weight: 800px;
+  color: #FFFFFF;
+}
+.bistarito{
+  max-width: 550px;
+  font-size: 16px;
+  color: #FFFFFF;
+
+
+}
+.bt{
+  max-width: 147px;
+  border-radius: 10000px;
+  font-size: 16px;
+  font-weight: 600px;
+  color: #00FF88;
+  padding: 16px 12px 16px 12px;
+  background-color: transparent ;
+  border: 2px solid #00FF88;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width:576px){
+.nav-continer{
+  flex-direction: column;
+  text-align: center;
+}
+.pl{
+  margin: 30 30px 0px 30px 30px ;
+  text-align: center;
+}
+.banner-continer{
+  margin-left: 0px;
+}
+
+
+}
+
+ 
