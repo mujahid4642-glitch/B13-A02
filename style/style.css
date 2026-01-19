@@ -68,13 +68,16 @@
 .banner-continer{
 
   max-width: 1600px;
-  margin-left: 142px;
+  /* height: 760px; */
+  margin: 0 auto;
+  /* margin-left: 142px; */
  
   background: url(../assets/hero-bg.png);
   background-repeat: no-repeat;
-  border: 2px solid wheat;
+  /* border: 2px solid wheat; */
   text-align: center;
-  padding: 100px 20px;
+  padding: 100px 0px 100px 0px;
+  border: 1px solid #1A0B2E;
 }
 .banner{
   max-width: 550px;
@@ -116,6 +119,184 @@
   cursor: pointer;
 }
 
+/* about-continer related */
+
+
+.about-continer{
+  max-width: 1600px;
+  height:  642px;
+  margin: 0 auto;
+  background-color: #1A0B2E;
+  text-align: center;
+  border: 1px solid #1A0B2E;
+}
+
+.about{
+  max-width: 1200px;
+  margin: 0 auto;
+  /* margin-top: 50px; */
+  font-size: 48px;
+  font-weight: 700;
+  color: #FFFFFF;
+  /* border: 3px solid wheat; */
+}
+.about-item{
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.f-reat-continer{
+  max-width: 1200px;
+  margin: 250px 200px 120px 200px;
+
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+ .reat-box{
+  /* max-width: 240px; */
+ }
+
+.reat{
+  font-size:48px ;
+  font-weight: 900;
+  color: #00FF88;
+}
+
+.reat-time{
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+
+/* box related */
+
+.box-continerr{
+
+  width: 1600px;
+  height: 1121px;
+  margin: 0 auto;
+  background-color: #230E3D;
+  border: 1px solid #230E3D ;
+}
+
+
+.box-name{
+  max-width: 1200px;
+  /* height: 743px; */
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700px;
+  color: #FFFFFF;
+  margin: 120px 200px 0px 200px;
+  /* border: 3px solid wheat; */
+
+}
+
+.box-card{
+  max-width: 1200px;
+  margin: 40px 200px 120px 200px;
+  /* border: 3px solid wheat; */
+  
+}
+
+/* grid-area */
+
+.box-card>*{
+  /* border: 2px solid whitesmoke; */
+  /* gap: 20px; */
+  padding: 20px;
+}
+
+.card-name1{
+  grid-area: headphone;
+}
+
+
+.card-name2{
+  grid-area: device;
+}
+
+.card-name3{
+  grid-area: location;
+}
+.card-name4{
+grid-area: card-name4;
+}
+.card-name5{
+  grid-area: resource;
+
+}
+
+.box-card{
+  display: grid;
+  gap: 30px;
+  grid-template-areas: 
+  
+  "headphone device device device"
+  "headphone location location location"
+  "card-name4 card-name4 card-name4 resource "
+}
+
+.card-name1{
+  max-width: 380px;
+  border-radius: 40px;
+  background-color: #351165;
+}
+
+.box-img{
+  /* max-width: 60px; */
+}
+.img-name{
+  /* max-width: 300px; */
+  font-size: 24px;
+  font-weight:700px ;
+  color:  #FFFFFF;
+}
+
+.img-name-ex{
+  /* max-width: 300px; */
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.card-name2{
+  /* max-width: 790px; */
+  background-color: #351165;
+  border-radius: 40px;
+}
+
+.card-name3{
+
+  /* max-width: 790px; */
+  background-color: #351165;
+  border-radius: 40px;
+}
+
+.card-name4{
+   /* max-width: 790px; */
+  background-color: #351165;
+  border-radius: 40px;
+
+}
+.card-name5{
+  background-color: #351165;
+  border-radius: 40px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:576px){
 .nav-continer{
@@ -130,7 +311,43 @@
   margin-left: 0px;
 }
 
+.about-item{
+
+  
+}
+
+.f-reat-continer{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  /* background-color: #230E3D; */
+  height: 100%;
 
 }
+.box-name{text-align: start;}
+
+.box-card{
+  display: block;
+  
+  
+  
+  grid-template-areas: 
+  
+  "headphone "
+  " device"
+  "location"
+  "card-name4"
+  "resource"
+
+  
+}
+
+
+
+}
+
+
+
+
+
 
  
