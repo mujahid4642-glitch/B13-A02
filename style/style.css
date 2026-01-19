@@ -350,6 +350,29 @@ grid-area: card-name4;
 }
 
 
+/* host-name */
+
+.host-name1{
+  font-size: 48px;
+  font-weight: 700px;
+  color: #FFFFFF;
+  text-align: center;
+
+}
+
+.host-continer{
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.host-name{
+  /* display: flex; */
+}
+
+
 
 
 
