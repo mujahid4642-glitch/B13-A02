@@ -77,7 +77,7 @@
   /* border: 2px solid wheat; */
   text-align: center;
   padding: 100px 0px 100px 0px;
-  border: 1px solid #1A0B2E;
+  /* border: 1px solid #1A0B2E; */
 }
 .banner{
   max-width: 550px;
@@ -86,6 +86,10 @@
 
 
 
+}
+
+.ifc{
+  /* margin-bottom: 10px; */
 }
 
 .imag{
@@ -446,68 +450,134 @@ grid-area: card-name4;
 
 
 
+   .img {
+ transition: transform 0.5s ease;  }
+.host-continer-img{
 
-
-
-
-
-
-
-@media screen and (max-width:576px){
-.nav-continer{
-  flex-direction: column;
-  text-align: center;
-}
-.pl{
-  margin: 30 30px 0px 30px 30px ;
-  text-align: center;
-}
-.banner-continer{
-  margin-left: 0px;
-}
-
-.about-item{
-  
-  
-}
-
-.f-reat-continer{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  /* background-color: #230E3D; */
-  height: 100%;
-
-}
-.box-name{text-align: start;}
-
-.box-card{
-  display: block;
-  
-  
-  
-  grid-template-areas: 
-  
-  "headphone "
-  " device"
-  "location"
-  "card-name4"
-  "resource"
-
-  
-}
-.box-continerr{
-
-  max-width: 1600px;
-  height: 700px;
-  margin: 0 auto;
-  background-color: #230E3D;
-  border: 1px solid #230E3D ;
+  /* transition: transform 2s; */
 }
 
 
 
 
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px)
+
+{ .nav-continer {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+
+   .pl {
+    margin: 10px auto;
+    text-align: center;
+  }
+.nav-item {
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px auto;
+    padding: 0;
+    
 }
+.btn-1 {
+    margin: 10px auto;
+    text-align: center;
+
+}
+
+  .footer-small {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer-box {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer-name {
+    margin: 60px auto 20px auto;
+    max-width: 90%;
+  }
+
+  .banner-continer {
+    padding: 50px 20px;
+    background-size: cover;
+  }
+
+  .name {
+    font-size: 32px; 
+    line-height: 1.2;
+  }
+
+  .imag {
+    max-width: 100%;
+    height: auto;
+  }
+
+   .host-continer {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .host-name1 {
+    font-size: 28px;
+  }
+
+  .about-continer {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .f-reat-continer {
+    flex-direction: column;
+    margin: 50px 20px;
+    gap: 40px;
+  }
+
+  .box-continerr {
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  .box-name {
+    font-size: 28px;
+    margin: 60px 20px 20px 20px;
+  }
+
+
+  .box-card {
+    display: flex; 
+    flex-direction: column;
+    margin: 20px;
+    grid-template-areas: none; 
+  }
+
+
+   .card-name1, .card-name2, .card-name3, .card-name4, .card-name5 {
+    max-width: 100%;
+  }
+
+
+
+
+
+
+
+}
+
+
+
+ 
 
 
 
